@@ -1,0 +1,173 @@
+body {
+  font-family: sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #eee;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  transition: background-color 0.3s;
+}
+
+.dark-mode .form-container {
+  background-color: #282828;
+}
+
+.form-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: inherit;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: inherit;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8; 
+  color: #333;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.dark-mode .input-group input {
+  background-color: #3c3c3c; 
+  color: #eee; 
+  border-color: #555; 
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  color: inherit;
+}
+
+.remember-me input {
+  margin-right: 10px;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; 
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dark-mode .form-container button {
+  background-color: #0056b3; 
+}
+
+.forgot-password {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  color: #007bff; 
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.dark-mode .forgot-password {
+  color: #00a2fa; 
+}
+
+.or-divider {
+  text-align: center;
+  margin: 20px 0;
+  color: inherit; 
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.social-buttons button {
+  width: 48%; 
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s; 
+}
+
+.social-buttons .google {
+  background-color: #fff; 
+  color: #333; 
+  border: 1px solid #ccc; 
+}
+
+.dark-mode .social-buttons .google {
+  background-color: #3c3c3c; 
+  color: #eee;
+  border-color: #555; 
+}
+
+.social-buttons .facebook {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.signup-link {
+  text-align: center;
+  color: inherit; 
+}
+
+.signup-link a {
+  color: #007bff; 
+  text-decoration: none;
+  transition: color 0.3s; 
+}
+
+.dark-mode .signup-link a {
+  color: #00a2fa; 
+}
+
+.mode-toggle {
+  margin-top: 20px; 
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dark-mode .mode-toggle {
+  background-color: #0056b3;
+}
+
+.success-message {
+  color: green; 
+  margin-top: 10px;
+}
